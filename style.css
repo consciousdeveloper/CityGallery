@@ -1,0 +1,206 @@
+*{
+    font-family: 'Nunito', sans-serif;
+    margin: auto;
+    padding: auto;
+    transition:all ease .5s ;
+    text-align: center;
+    -webkit-transition:all ease .5s ;
+    -moz-transition:all ease .5s ;
+    -ms-transition:all ease .5s ;
+    -o-transition:all ease .5s ;
+}
+
+body{
+      margin:100px;
+      background-color: #e5e5f7;
+
+
+}
+
+.onePage {
+      background-color: white;
+      border-radius: 20px;
+      -webkit-border-radius: 20px;
+      -moz-border-radius: 20px;
+      -ms-border-radius: 20px;
+      width: auto;
+      margin: auto;
+      -o-border-radius: 20px;
+}
+.onePage .topBar {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+
+      
+
+}
+.onePage .topBar  .topText{
+      font-weight: 900;
+      font-size: 2rem;
+      padding-top: 50px;
+
+}
+.onePage .topBar  .homeLand{
+      width: 640px;
+      padding: 50px;
+     
+      position: relative;
+      height: 300px;
+
+
+}
+.onePage .topBar  .homeLand img{
+      width: 100%;
+      border-radius: 10px;
+      height: 100%;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      -ms-border-radius: 10px;
+      -o-border-radius: 10px;
+}
+.onePage .topBar  .homeLand .text{ position: absolute; top: 50%; left: 50%; padding: 20px; transform: translate(-50%,-50%); -webkit-transform: translate(-50%,-50%); -moz-transform: translate(-50%,-50%); -ms-transform: translate(-50%,-50%); -o-transform: translate(-50%,-50%);
+       color: yellow;
+border: 3px solid yellow;
+}
+.allCards{
+      display: flex;
+      justify-content: space-around;
+      flex-direction: column;
+      flex-wrap: wrap;
+      
+}
+
+.cards{
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      flex-direction: row;
+
+
+      
+
+}
+.cards .card{
+
+width: 300px;
+position: relative;
+height: 300px;
+      border-radius: 10px;
+
+margin:20px;
+
+
+
+}
+.cards .card img{
+      width: 100%;
+      height: 100%;
+}
+footer{
+padding: 50px;
+}
+
+.cards .card .img{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            border-radius: 10px;
+            -webkit-border-radius: 10px;
+            -moz-border-radius: 10px;
+            -ms-border-radius: 10px;
+            -o-border-radius: 10px;
+}
+.cards .card .img img{
+            border-radius: 10px;
+      
+}
+.cards .card .name{
+      position: absolute;
+      
+      width: 100%;
+opacity: 0;     
+      height: 100%;
+      border-bottom-right-radius : 10px;
+      
+      border-bottom-left-radius : 10px;
+
+      z-index: 5;
+}
+
+.cards .card .name h3{
+      font-size: 1.5rem;
+ background-color: rgba(199, 199, 199, 0.6);
+     
+     position: absolute;
+      margin-top: 45%;
+      padding: 10px 30px;
+
+color: rgba(0, 0, 0, 0.8);
+}
+.cards .card .name:hover{
+opacity: 1;}
+footer{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+}
+footer a{
+      text-decoration: none;
+
+      font-weight: 600;
+      padding: 15px 50px;
+      border-radius: 10px;
+      
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      -ms-border-radius: 10px;
+      color: white;
+      -o-border-radius: 10px;background-color: black;
+}
+.end{
+      width: 100px;
+      height: 100px;
+padding: 40px;
+}
+.end img{
+      width: 100%;
+height: 100%;
+}
+.long{
+      width: 640px;
+      padding: 20px;
+      position: relative;
+      height: 300px;
+      border-radius:  10px;
+}
+.lastImgs{
+      display: flex;
+      justify-content: space-around;
+      flex-direction: row;
+}
+.dash{
+      width: 40px;
+      border-bottom: solid 2px black;
+}
+.small{
+      width: 300px;
+height: 300px;
+padding: 20px;
+      border-radius:  10px;
+}
+.long img{
+      width: 100%;
+      height: 100%;
+      border-radius:  10px;
+
+
+}
+.small img{
+      border-radius:  10px;
+
+        width: 100%;
+      height: 100%;
+
+}
+
